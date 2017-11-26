@@ -1,8 +1,8 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/model/json/JSONModel",
-	"sap/ui/model/resource/ResourceModel"
-], function(UIComponent, JSONModel, ResourceModel) {
+	"sap/ui/demo/wt/controller/HelloDialog"
+], function(UIComponent, JSONModel,HelloDialog) {
 	"use strict";
 	return UIComponent.extend("sap.ui.demo.wt.Component", {
 		metadata: {
@@ -19,7 +19,13 @@ sap.ui.define([
 			};
 			var oModel = new JSONModel(oData);
 			this.setModel(oModel);
-		
+			//将helloDialog的弹窗设置成全局变量
+			//set dialog
+			// this.getRootContol();获取的是什么对象?查阅API文档
+			this._helloDialog = new HelloDialog(this.getRootControl());
+		},
+		openHelloDialog:function(){
+			this._helloDialog.open();	
 		}
 	});
 });
