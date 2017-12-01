@@ -55,7 +55,7 @@
 			"compact": false,
 			"cozy": false
 		}
-	}<App class="myAppDemoWT" id="app"/><App class="myAppDemoWT" id="app"/>,
+	},
 	"resources": {
 		"css": [{
 			"uri": "css/style.css"
