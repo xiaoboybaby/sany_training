@@ -1,6 +1,24 @@
 {
   "run": [
     {
+      "filePath": "/C9_DataBinding/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 2744592,
+        "displayName": "Run index.html 6",
+        "lastRunTimeStamp": 1513580746587
+      }
+    },
+    {
       "filePath": "/C7_HelloWorld/webapp/test/mockServer.html",
       "previewMode": 1,
       "dataMode": 1,
